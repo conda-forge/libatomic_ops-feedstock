@@ -1,17 +1,23 @@
-{% set version = "7.4.2" %}
+{% set name = "libatomic_ops" %}
+{% set version = "7.4.10" %}
+{% set sha256 = "5f1bcbef3888d34c21cbbcd635336c5619927ff835868c8dbe7442d79320e707"%}
 
 package:
-  name: libatomic_ops
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: libatomic_ops-7.4.2.tar.gz
-  url: http://www.ivmaisoft.com/_bin/atomic_ops/libatomic_ops-7.4.2.tar.gz
-  sha1: 57cd7c64e37fca300bd7b24e3d2f14129b25b376
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://github.com/ivmai/{{ name }}/releases/download/v{{ version }}/libatomic_ops-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
 
 build:
   number: 0
   skip: True  # [win]
+
+requirements:
+  build:
+    - toolchain
 
 test:
   commands:
