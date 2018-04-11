@@ -1,6 +1,6 @@
 {% set name = "libatomic_ops" %}
 {% set version = "7.6.4" %}
-{% set sha256 = "5f1bcbef3888d34c21cbbcd635336c5619927ff835868c8dbe7442d79320e707"%}
+{% set sha256 = "5b823d5a685dd70caeef8fc50da7d763ba7f6167fe746abca7762e2835b3dd4e" %}
 
 package:
   name: {{ name|lower }}
@@ -32,3 +32,4 @@ about:
 extra:
   recipe-maintainers:
     - stefan-balke
+    - saraedum
