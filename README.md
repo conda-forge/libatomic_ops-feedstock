@@ -14,14 +14,16 @@ Summary: Implementations for atomic memory update operations.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/libatomic_ops-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/libatomic_ops-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/libatomic_ops-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/libatomic_ops-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/libatomic_ops-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/libatomic_ops-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/libatomic_ops-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/libatomic_ops-feedstock)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libatomic_ops/badges/version.svg)](https://anaconda.org/conda-forge/libatomic_ops)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libatomic_ops/badges/downloads.svg)](https://anaconda.org/conda-forge/libatomic_ops)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-libatomic_ops-green.svg)](https://anaconda.org/conda-forge/libatomic_ops) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libatomic_ops.svg)](https://anaconda.org/conda-forge/libatomic_ops) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libatomic_ops.svg)](https://anaconda.org/conda-forge/libatomic_ops) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libatomic_ops.svg)](https://anaconda.org/conda-forge/libatomic_ops) |
 
 Installing libatomic_ops
 ========================
