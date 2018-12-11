@@ -1,6 +1,6 @@
 {% set name = "libatomic_ops" %}
-{% set version = "7.6.6" %}
-{% set sha256 = "99feabc5f54877f314db4fadeb109f0b3e1d1a54afb6b4b3dfba1e707e38e074" %}
+{% set version = "7.6.8" %}
+{% set sha256 = "1d6a279edf81767e74d2ad2c9fce09459bc65f12c6525a40b0cb3e53c089f665" %}
 
 package:
   name: {{ name|lower }}
