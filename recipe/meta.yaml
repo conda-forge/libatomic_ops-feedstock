@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win]
 
 requirements:
@@ -29,10 +29,12 @@ test:
 
 about:
   home: https://github.com/ivmai/libatomic_ops
-  license: Custom
+  license: MIT AND GPL-2.0-or-later
+  license_file: doc/LICENSING.txt
   summary: Implementations for atomic memory update operations.
 
 extra:
   recipe-maintainers:
     - stefan-balke
     - saraedum
+    - isuruf
