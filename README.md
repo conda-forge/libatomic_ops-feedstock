@@ -81,7 +81,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-libatomic_ops-green.svg)](https://anaconda.org/conda-forge/libatomic_ops) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libatomic_ops.svg)](https://anaconda.org/conda-forge/libatomic_ops) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libatomic_ops.svg)](https://anaconda.org/conda-forge/libatomic_ops) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libatomic_ops.svg)](https://anaconda.org/conda-forge/libatomic_ops) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-libatomic__ops-green.svg)](https://anaconda.org/conda-forge/libatomic_ops) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libatomic_ops.svg)](https://anaconda.org/conda-forge/libatomic_ops) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libatomic_ops.svg)](https://anaconda.org/conda-forge/libatomic_ops) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libatomic_ops.svg)](https://anaconda.org/conda-forge/libatomic_ops) |
 
 Installing libatomic_ops
 ========================
